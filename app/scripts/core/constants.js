@@ -15,7 +15,7 @@
       // DATA_JSON_URL: 'file:data/contextual.timeline04-02.json'
       // DATA_JSON_URL: 'https://raw.githubusercontent.com/NLeSC/UncertaintyVisualization/gh-pages/data/contextual.timeline04-02.json',
       // DATA_JSON_URL: 'https://raw.githubusercontent.com/NLeSC/UncertaintyVisualization/narratives/app/data/embodied_0202.json',
-      DATA_JSON_URL: '/index.json',
+      DATA_JSON_URL: 'http://35.159.11.89/api/all',
       // mapping where
       // key is name of dc group and crossfilter instance.
       // value is key from index.json object
@@ -24,7 +24,7 @@
         {key: 'projects', value: 'project'},
         {key: 'people', value: 'person'},
         {key: 'organizations', value: 'organization'},
-        {key: 'report', value: 'report'},
+        // {key: 'report', value: 'report'},
         {key: 'publication', value: 'publication'},
       ],
       SUBSITE_WHITELIST: [

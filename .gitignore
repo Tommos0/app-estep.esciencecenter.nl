@@ -17,3 +17,6 @@ project.exvim
 /npm-debug.log
 
 *.pyc
+.idea/
+.vscode/
+package-lock.json
